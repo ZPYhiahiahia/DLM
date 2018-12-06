@@ -1,0 +1,4 @@
+<!--pages/dlm/dlm.wxml-->
+<view class="container">
+  <text>DLM</text>
+</view>

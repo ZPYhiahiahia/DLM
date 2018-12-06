@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/dlm/dlm",
+    "pages/test/test",
+    "pages/find/find",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "DLM",
+    "navigationBarTextStyle":"black",
+    "navigationStyle":"default"
+  },
+  
+   "tabBar": {
+    "selectedColor": "#1296db",
+    "borderStyle":"#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/dlm/dlm",
+        "text": "DLM",
+        "iconPath": "pages/images/首页.png",
+        "selectedIconPath": "pages/images/首页_填充.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "pages/images/地标.png",
+        "selectedIconPath": "pages/images/地标_填充.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "订单",
+        "iconPath": "pages/images/清单.png",
+        "selectedIconPath": "pages/images/清单_填充.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "pages/images/用户.png",
+        "selectedIconPath": "pages/images/用户_填充.png"
+      }
+      
+    ]
+   }
+
+
+
+
+}
+
