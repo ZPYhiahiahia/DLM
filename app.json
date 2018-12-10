@@ -1,22 +1,24 @@
 {
-  "pages":[
+  "pages": [
+    "pages/login/login",
     "pages/dlm/dlm",
     "pages/test/test",
     "pages/find/find",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/user/settings/settings",
+    "pages/user/settings/studentCheck/studentCheck"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "DLM",
-    "navigationBarTextStyle":"black",
-    "navigationStyle":"default"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
   },
-  
-   "tabBar": {
+  "tabBar": {
     "selectedColor": "#1296db",
-    "borderStyle":"#FFFFFF",
+    "borderStyle": "#FFFFFF",
     "list": [
       {
         "pagePath": "pages/dlm/dlm",
@@ -37,17 +39,11 @@
         "selectedIconPath": "pages/images/清单_填充.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/user/user",
         "text": "我的",
         "iconPath": "pages/images/用户.png",
         "selectedIconPath": "pages/images/用户_填充.png"
       }
-      
     ]
-   }
-
-
-
-
+  }
 }
-

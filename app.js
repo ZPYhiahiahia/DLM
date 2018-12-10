@@ -37,6 +37,8 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo:null,
+    openid: 0,
+    host:"http://127.0.0.1"
   }
 })

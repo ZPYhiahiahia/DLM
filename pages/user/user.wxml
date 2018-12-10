@@ -1,0 +1,58 @@
+<view class='page'>
+  <view id="userInfoView">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <view id='imageView0'>
+      <image mode='' bindtap="bindViewTap"  id='userInfoImage' src="{{userInfo.avatarUrl}}"></image>    
+      <image src='../images/预警.png' id='warnImage' > 
+      </image>
+      <image src='../images/设置.png' id='settingImage'>
+       </image>
+    </view>
+  </view>
+   <view class="weui-cells weui-cells_after-title">
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">已接受订单</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">已创建订单</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">个人信息</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="settings/settings" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">设置</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+        </view>
+      <modal title='学号验证' cancel-text='关闭' confirm-text='确定' no-cancel="{{noCancel}}"  hidden="{{mHidden}}" 
+        bindconfirm="changeModel" bindcancel="modelCancel">
+        
+        <form bindsubmit="formSubmit" bindreset="formReset">
+          <view>
+            <view>学号</view>
+            <input name="uniId" id="uniId" bindblur='uniIdBlur'  value='{{uniIdInput}}' text/>
+          </view>
+          <view class=''>
+            <view class="">密码</view>
+            <input name="password" id="password" password/>
+          </view>
+          <view class='' hidden='{{captchaHidden}}'>
+            <view class="" >验证码</view>
+            <view id="captcha">
+            <input id="captchaText"   text/>
+                         <image style='border:1px solid' id="captchaImage" src='{{captchaImageSrc}}'                mode='aspectFit'></image>
+            </view>
+            
+          </view>
+        
+          <view class="">
+            <button formType="submit" class=''>提交</button>
+            <button formType="reset" class=''>重置</button>
+          </view>
+        </form>
+      </modal>
+
+</view>

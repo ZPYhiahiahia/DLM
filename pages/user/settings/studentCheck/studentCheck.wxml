@@ -1,0 +1,37 @@
+       <view class='page'>
+        <view class="weui-cells weui-cells_after-title">
+            
+            <view class="weui-cell weui-cell_input weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">学工号认证</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" id='uniIdText' bindblur='uniIdTextBlur' placeholder="请输入学工号" />
+                </view>
+                <view class="weui-cell__ft">
+                </view>
+            </view>
+           <view class="weui-cell weui-cell_input weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">密码</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入密码" />
+                </view>
+                <view class="weui-cell__ft">
+                </view>
+            </view>
+      
+            <view class="weui-cell weui-cell_input weui-cell_vcode" hidden='{{captchaHidden}}'>
+                <view class="weui-cell__hd">
+                    <view class="weui-label">验证码</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入验证码" />
+                </view>
+                <view class="weui-cell__ft">
+                    <image class="weui-vcode-img" src="{{captchaImageSrc}}" style="width: 108px"></image>
+                </view>
+            </view>
+        </view>
+        </view>

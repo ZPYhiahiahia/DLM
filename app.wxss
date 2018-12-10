@@ -1,3 +1,6 @@
+@import "pages/static/wxss/weui.wxss";
+
+
   /**app.wxss**/
 .container {
   height: 100%;

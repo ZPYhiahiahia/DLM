@@ -1,0 +1,21 @@
+#userInfoView{
+}
+#imageView0{
+  margin-left:450rpx;
+}
+
+#userInfoImage{
+  width:100rpx;
+  height: 100rpx;
+}
+#settingImage{
+  margin-left: 10rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+#warnImage{
+  margin-left: 50rpx;
+  width: 50rpx;
+  height:50rpx;
+}
+
