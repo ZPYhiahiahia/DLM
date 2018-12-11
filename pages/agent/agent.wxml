@@ -1,0 +1,33 @@
+<!--pages/test/test.wxml-->
+
+
+<view class="page">
+      <view class="weui-form-preview">
+            <view class="weui-form-preview__hd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">订单名称</view>
+                    <view class="weui-form-preview__value_in-hd">DLM</view>
+                </view>
+            </view>
+            <view class="weui-form-preview__bd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">发起人</view>
+                    <view class="weui-form-preview__value">dlm</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">创建日期</view>
+                    <view class="weui-form-preview__value">2018-12-12</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">状态</view>
+                    <view class="weui-form-preview__value">准备中</view>
+                </view>
+            </view>
+            <view class="weui-form-preview__ft">
+                <navigator url="" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">前往查看更多</navigator>
+            </view>
+        </view>
+</view>
+
+
+

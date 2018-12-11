@@ -1,1 +1,5 @@
-{}
+{
+  "usingComponents":{
+    "selftoast":"/pages/selfcomponent/toast/toast"
+  }
+} 

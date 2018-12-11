@@ -2,12 +2,16 @@
   "pages": [
     "pages/login/login",
     "pages/dlm/dlm",
-    "pages/test/test",
+    "pages/agent/agent",
     "pages/find/find",
     "pages/user/user",
     "pages/logs/logs",
     "pages/user/settings/settings",
-    "pages/user/settings/studentCheck/studentCheck"
+    "pages/user/settings/studentCheck/studentCheck",
+    "pages/selfcomponent/toast/toast",
+    "pages/user/agentT/agentT",
+    "pages/user/agentS/agentS",
+    "pages/user/info/info"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -33,7 +37,7 @@
         "selectedIconPath": "pages/images/地标_填充.png"
       },
       {
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/agent/agent",
         "text": "订单",
         "iconPath": "pages/images/清单.png",
         "selectedIconPath": "pages/images/清单_填充.png"
