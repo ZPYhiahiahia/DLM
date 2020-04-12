@@ -12,6 +12,8 @@
 	"libVersion": "1.6.0",
 	"appid": "wx6787bf9ac30072cf",
 	"projectname": "DLM",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

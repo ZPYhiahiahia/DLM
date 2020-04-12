@@ -1,8 +1,0 @@
-/* pages/settings/studentCheck/studentCheck.wxss */
-#studentCheckConfirmButton{
-  margin:50rpx auto auto auto;
-  width: 350rpx; 
-}
-#studentCheckView{
-  margin-top:100rpx; 
-}

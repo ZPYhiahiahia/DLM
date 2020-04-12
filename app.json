@@ -22,7 +22,7 @@
   },
   "tabBar": {
     "selectedColor": "#1296db",
-    "borderStyle": "#FFFFFF",
+    "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/dlm/dlm",
@@ -31,23 +31,12 @@
         "selectedIconPath": "pages/images/首页_填充.png"
       },
       {
-        "pagePath": "pages/find/find",
-        "text": "发现",
-        "iconPath": "pages/images/地标.png",
-        "selectedIconPath": "pages/images/地标_填充.png"
-      },
-      {
-        "pagePath": "pages/agent/agent",
-        "text": "订单",
-        "iconPath": "pages/images/清单.png",
-        "selectedIconPath": "pages/images/清单_填充.png"
-      },
-      {
         "pagePath": "pages/user/user",
         "text": "我的",
         "iconPath": "pages/images/用户.png",
         "selectedIconPath": "pages/images/用户_填充.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
