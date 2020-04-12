@@ -2,16 +2,7 @@
   "pages": [
     "pages/login/login",
     "pages/dlm/dlm",
-    "pages/agent/agent",
-    "pages/find/find",
-    "pages/user/user",
-    "pages/logs/logs",
-    "pages/user/settings/settings",
-    "pages/user/settings/studentCheck/studentCheck",
-    "pages/selfcomponent/toast/toast",
-    "pages/user/agentT/agentT",
-    "pages/user/agentS/agentS",
-    "pages/user/info/info"
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
